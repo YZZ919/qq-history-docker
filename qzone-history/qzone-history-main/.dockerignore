@@ -1,0 +1,12 @@
+.git
+.github
+.vscode
+.idea
+
+tmp
+**/tmp
+
+*.exe
+*.dll
+*.pdb
+

@@ -1,0 +1,53 @@
+# Root gitignore for qq-history
+
+######################
+# OS / Editor
+######################
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+.vscode/
+*.code-workspace
+
+######################
+# Python
+######################
+__pycache__/
+*.py[cod]
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+.venv/
+venv/
+ENV/
+
+.env
+.env.*
+
+######################
+# Project data / artifacts (do NOT publish)
+######################
+backup-*/
+*.db
+*.sqlite
+*.sqlite3
+
+*_export.json
+*_export.html
+
+tmp/
+**/tmp/
+
+######################
+# Binaries / build outputs
+######################
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
